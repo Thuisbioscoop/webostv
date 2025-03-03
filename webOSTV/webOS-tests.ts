@@ -21,6 +21,11 @@ function test_deviceInfo() {
         deviceInfo.hdr10; // $ExpectType boolean | undefined
         deviceInfo.dolbyVision; // $ExpectType boolean | undefined
         deviceInfo.dolbyAtmos; // $ExpectType boolean | undefined
+        deviceInfo.brandName; // $ExpectType string
+        deviceInfo.manufacturer; // $ExpectType string
+        deviceInfo.mainboardMaker; // $ExpectType string | undefined
+        deviceInfo.platformBizType; // $ExpectType string
+        deviceInfo.tuner; // $ExpectType boolean
     });
 }
 
